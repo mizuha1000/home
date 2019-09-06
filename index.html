@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>てすと</title>
+		<link rel="icon" href="../image/ripple_logo.png">
+		<!--jQueryはjsの前-->
+		<link rel="stylesheet" type="text/css" href="test.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	</head>
+	<body id ="gya">
+		<!-- ヘッダー -->
+		<header> 
+			<p>Profile</p>
+		</header>
+		<div class="navi-main">
+			<div class="navi">
+				<p>ナビ</p>	
+			</div>
+			<div class="main">
+				<p>メイン</p>	
+				<button type="button" onclick="hello();">あいさつ</button><br>
+				<button type="button" onclick="calc1();">計算1</button>
+				<button type="button" onclick="calc2();">計算2</button>
+				<button type="button" onclick="calc3();">計算3</button>
+				<button type="button" onclick="calc4();">計算4</button><br>
+				<button type="button" onclick="link();">連結</button><br>
+				<button type="button" onclick="display1();">表示1</button>
+				<button type="button" onclick="display2();">表示2</button>
+				<button type="button" onclick="display3();">表示3</button>
+				<button type="button" onclick="display4();">表示4</button>
+				<button type="button" onclick="display5();">表示5</button>
+				<button type="button" onclick="display6();">表示6</button>
+				<button type="button" onclick="display7();">表示7</button>
+				<button type="button" onclick="display8();">表示8</button>
+				<button type="button" onclick="display9();">表示9</button>
+				<button type="button" onclick="display10();">表示10</button>
+				<button type="button" onclick="display11();">表示11</button><br>
+				<button type="button" onclick="navi_display();">ナビ表示</button>
+				<button type="button" onclick="navi_delete();">ナビ削除</button>
+				<button type="button" onclick="css_henkou1();">CSS変更1</button>
+				<button type="button" onclick="css_henkou2();">CSS変更2</button>
+				<button type="button" onclick="gya();">ぎゃー</button>
+				<div id ="button1">ボタン1</div>
+				<div id ="on-off">表示-非表示</div>
+				<div id ="button2">ボタン2</div>
+
+				<h1>ば～～ん</h1>
+				<h2>ぼ～～ん</h2>
+				<h3>↑↑↑↑↑↑↑↑</h3>
+				<ul id ="list1">
+					<li>リスト1</li>
+					<li>リスト2</li>
+				</ul>
+				<ul id ="list2">
+					<li>リストA</li>
+					<li>リストB</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="rensyu2">
+			<button type="button" onclick="null_color_henkou();">色変更0</button>
+			<button type="button" onclick="find_color_henkou();">色変更1</button>
+			<button type="button" onclick="children_color_henkou();">色変更2</button>
+
+			<p>あいうえお</p>
+			<div class="aiueo">
+				あ
+				<p>かきくけこ</p>
+
+			</div>
+			<h5 id ="mouth-over">ここをマウスオーバー</h5>
+			<p id ="mojiwokakusu">ユダヤマフィアこわい</p>
+
+			<p id ="mo-daru">モーダルうううう</p>
+		</div>
+
+
+		無し<input placeholder="テキストボックス"><br>
+		number<input type="number" placeholder="0から9"><br>
+		tel<input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678"><br>
+		email<input type="email" placeholder="info@sample.com"><br>
+		url<input type="url" placeholder="URL"><br>
+		contact-submit<input class="contact-submit" type="submit" value="送信"><br>
+		password<input type="password" maxlength="12" placeholder="password"><br>
+		date<input type="date"><br>
+		datetime-local<input type="datetime-local"><br>
+		month<input type="month"><br>
+
+		radio<label><input type="radio" name="radio1">良い</label><br>
+		radio<label><input type="radio" name="radio1">普通</label><br>
+		radio<label><input type="radio" name="radio1">悪い</label><br>
+		radio<label><input type="radio" name="radio2">良い</label><br>
+		radio<label><input type="radio" name="radio2">普通</label><br>
+		radio<label><input type="radio" name="radio2">悪い</label><br>
+
+		checkbox<label><input type="checkbox" name="check">りんご</label><br>
+	  checkbox<label><input type="checkbox" name="check">ごりら</label><br>
+	  checkbox<label><input type="checkbox" name="check">らっぱ</label><br>
+
+	  <input type="file" accept="image/png, image/jpeg"><br>
+	  <input type="color" value="#0b80dc"><br>
+	  <input type="range" min="0" max="100"><br>
+	  <input type="range" step="20" min="0" max="100"><br>
+
+		<textarea></textarea><br>
+
+		<a href="https://www.ripple.com/ja/">Ripple</a><br>
+
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/NG4M12vQJ6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+		<footer>
+			<p>フッター</p>
+		</footer>
+		<script type="text/javascript" src="test.js"></script>
+	</body>
+</html>
