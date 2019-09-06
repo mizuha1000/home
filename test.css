@@ -1,0 +1,63 @@
+p {
+}
+
+header {
+	background-color: #8dfa85;
+	height: 50px;
+	border: 1px solid #ff0000;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+.navi-main {
+	background-color: #8882fd;
+	height: 400px;
+	border: 1px solid #000000;
+	padding: 20px;
+}
+
+.navi {
+	background-color: #dfe49a;
+	width: 300px;
+	height: 300px;
+	float: left;
+	display: block;/*非表示はnone*/
+}
+
+.main {
+	background-color: #dfe49a;
+	width: 700px;
+	height: 400px;
+	float: right;
+}
+
+.rensyu2 {
+	background-color: #dfe49a;
+	width: 700px;
+	height: 400px;
+	border: 1px solid #000000;
+	padding: 20px;
+	margin: 10px;
+}
+
+.aiueo {
+	color: pink;
+}
+
+#mojiwokakusu {
+	display: none;
+}
+
+#mo-daru {
+	display: none;
+}
+
+
+footer {
+	background-color: #8dfa85;
+	height: 50px;
+	border: 1px solid #ff0000;
+	padding: 20px;
+	margin: 10px;
+}
